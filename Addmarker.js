@@ -4,8 +4,8 @@ import {  Alert,Platform,  StyleSheet,  Text,  View, Dimensions ,TouchableOpacit
 import MapView, { ProviderPropType, Marker, AnimatedRegion,Animated } from 'react-native-maps';
 
 
-const screen = Dimensions.get('window');
 
+const screen = Dimensions.get('window');
 const ASPECT_RATIO = screen.width / screen.height;
 const LATITUDE = 27.143215;
 const LONGITUDE = 49.564573;
